@@ -13,16 +13,24 @@
 <meta property="og:description" content="Selbst erstellte Übersichten zu Politik, Geschichte und Sicherheitspolitik, jede Angabe mit Quelle.">
 <meta property="og:url" content="https://kaffeeundkomiss.github.io/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="basis.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="top">
+<div class="kk-leiste"><div class="kk-in">
+  <a class="kk-haus" href="https://kaffeeundkomiss.github.io/"><img src="kk-tasse.svg" alt="" width="22" height="22"><span>Kaffee und Komiss</span></a>
+  <nav class="kk-bereiche" aria-label="Bereiche"><a href="https://kaffeeundkomiss.github.io/erster-Weltkrieg/">Geschichte</a><a href="https://kaffeeundkomiss.github.io/bundeswehr-Afghanistan-/"><span class="kk-lang">Sicherheitspolitik</span><span class="kk-kurz">Sicherheit</span></a><a href="https://kirchnerjan-cell.github.io/fdp-monitor/">Politik</a></nav>
+</div></div>
+<header class="kk-kopf">
   <div class="wrap">
-    <div class="marke">
+    <div class="kk-schild">
       <img class="logo" src="favicon.svg" alt="" width="44" height="44">
       <div>
-        <div class="name">Kaffee und Komiss</div>
-        <div class="unter">Politik, Geschichte und Sicherheitspolitik mit Quellen</div>
+        <div class="kk-name">Kaffee und Komiss</div>
+        <div class="kk-unter">Politik, Geschichte und Sicherheitspolitik mit Quellen</div>
       </div>
     </div>
   </div>
@@ -30,24 +38,28 @@
 
 <main>
   <section class="einleitung">
-    <h1>Übersicht</h1>
+    <div class="kicker">Übersicht</div>
+    <h1>Drei Bereiche, jede Angabe belegt</h1>
     <p>Drei Projekte, jedes als eigene Seite. Jede Angabe ist mit Quelle belegt; wo die Quellenlage dünn ist, steht das dabei.</p>
   </section>
 
   <section class="projekte" aria-label="Projekte">
-    <a class="projekt" href="https://kirchnerjan-cell.github.io/fdp-monitor/">
+    <a class="projekt kk-b-poli" href="https://kirchnerjan-cell.github.io/fdp-monitor/">
+      <span class="band"><img src="icons/politik.svg" alt="" width="40" height="40"></span>
       <span class="rubrik">Politik</span>
       <span class="titel">FDP-Monitor</span>
       <span class="text">Aktuelle Umfragewerte der FDP für Bundestag und Landtagswahlen, dazu Wahlergebnisse seit 1998 und die Themen der Wahlprogramme.</span>
       <span class="hinweis">Wird wöchentlich aktualisiert</span>
     </a>
-    <a class="projekt" href="https://kaffeeundkomiss.github.io/erster-Weltkrieg/">
+    <a class="projekt kk-b-gesch" href="https://kaffeeundkomiss.github.io/erster-Weltkrieg/">
+      <span class="band"><img src="icons/geschichte.svg" alt="" width="40" height="40"></span>
       <span class="rubrik">Geschichte</span>
       <span class="titel">Jagdgeschwader Richthofen 1916–1918</span>
       <span class="text">Animierte Karte der Stationierungen, Personenregister und Ereignisseiten zu Boelckes Tod, dem Blutigen April 1917 und Richthofens letztem Flug.</span>
       <span class="hinweis">Mit Belegstatus je Aussage</span>
     </a>
-    <a class="projekt" href="https://kaffeeundkomiss.github.io/bundeswehr-Afghanistan-/">
+    <a class="projekt kk-b-sipo" href="https://kaffeeundkomiss.github.io/bundeswehr-Afghanistan-/">
+      <span class="band"><img src="icons/sicherheitspolitik.svg" alt="" width="40" height="40"></span>
       <span class="rubrik">Sicherheitspolitik</span>
       <span class="titel">Bundeswehr in Afghanistan</span>
       <span class="text">Der Einsatz 2001–2021: Kennzahlen, Zeitleiste, Karten der Regionalkommandos und die Aufarbeitung.</span>
@@ -56,8 +68,8 @@
   </section>
 </main>
 
-<footer class="wrap fuss">
-  <p>Private, nichtkommerzielle Zusammenstellung. Fehler gefunden? Bitte mit Quelle melden.</p>
-</footer>
+<footer class="kk-fuss"><div class="kk-in">
+  <p><a href="https://kaffeeundkomiss.github.io/">Kaffee und Komiss</a>: Politik, Geschichte und Sicherheitspolitik mit Quellen. Private, nichtkommerzielle Zusammenstellung. Fehler gefunden? Bitte mit Quelle melden.</p>
+</div></footer>
 </body>
 </html>
