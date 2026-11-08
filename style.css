@@ -1,0 +1,42 @@
+/* Gestaltung wie die Afghanistan-Seite: hell, Farben nach dem Tropentarndruck (Sand, Hellbraun, Dunkelbraun, Olivgrün). */
+:root{
+  --bg:#F4EEE2; --paper:#FFFDF8; --ink:#2C281F; --mute:#685C4A; --line:#DCCFB6;
+  --akzent:#4C5233; --akzent-ink:#F4EEE2; --link:#6E5034; --braun:#6E5034; --hellbraun:#B39672;
+  --head-bg:#CBB18C; --head-ink:#2C281F; --head-mute:#5C4F3C; --schild:rgba(250,245,235,.95); --tarn-dimm:transparent;
+  --body:system-ui,-apple-system,"Segoe UI",sans-serif; --mono:ui-monospace,"SF Mono",Menlo,monospace; --max:960px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#1D1B16; --paper:#26231C; --ink:#ECE5D6; --mute:#B3A891; --line:#3B362B;
+    --akzent:#A4AE7A; --akzent-ink:#1D1B16; --link:#D2AE82; --braun:#D2AE82; --hellbraun:#7D6749;
+    --head-ink:#ECE5D6; --head-mute:#B3A891; --schild:rgba(38,35,28,.95); --tarn-dimm:rgba(20,18,14,.45);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1D1B16; --paper:#26231C; --ink:#ECE5D6; --mute:#B3A891; --line:#3B362B;
+  --akzent:#A4AE7A; --akzent-ink:#1D1B16; --link:#D2AE82; --braun:#D2AE82; --hellbraun:#7D6749;
+  --head-ink:#ECE5D6; --head-mute:#B3A891; --schild:rgba(38,35,28,.95); --tarn-dimm:rgba(20,18,14,.45);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+a{color:var(--link)}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 16px}
+h1{margin:0;font-size:28px;font-weight:800;text-transform:uppercase;letter-spacing:.03em;border-left:6px solid var(--akzent);padding-left:12px}
+header.top{background:linear-gradient(var(--tarn-dimm),var(--tarn-dimm)),var(--head-bg) url("tarn.svg") repeat;color:var(--head-ink);border-bottom:4px solid var(--akzent)}
+header.top .wrap{padding-top:26px;padding-bottom:26px}
+.marke{display:inline-flex;align-items:center;gap:12px;background:var(--schild);padding:10px 16px 10px 12px;border:1px solid var(--braun)}
+.marke .logo{flex:none;width:44px;height:44px}
+.marke .name{font-weight:700;font-size:18px;text-transform:uppercase;letter-spacing:.06em}
+.marke .unter{font-size:13px;color:var(--head-mute)}
+main{max-width:var(--max);margin:0 auto;padding:28px 16px 8px;display:flex;flex-direction:column;gap:24px}
+.einleitung p{margin:8px 0 0;color:var(--mute);max-width:70ch}
+.projekte{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.projekt{display:flex;flex-direction:column;gap:8px;padding:0 20px 20px;background:var(--paper);border:1px solid var(--line);border-top:3px solid var(--akzent);color:var(--ink);text-decoration:none}
+.projekt:hover,.projekt:focus-visible{border-color:var(--hellbraun);border-top-color:var(--akzent)}
+.projekt:focus-visible{outline:3px solid var(--hellbraun);outline-offset:2px}
+.rubrik{align-self:flex-start;margin:-1px 0 6px -20px;background:var(--akzent);color:var(--akzent-ink);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;padding:5px 12px}
+.titel{font-size:20px;font-weight:700;color:var(--link);text-decoration:underline;text-underline-offset:3px}
+.text{color:var(--ink)}
+.hinweis{margin-top:auto;font-family:var(--mono);font-size:13px;color:var(--mute)}
+.fuss{padding-top:24px;padding-bottom:32px;font-size:13px;color:var(--mute)}
