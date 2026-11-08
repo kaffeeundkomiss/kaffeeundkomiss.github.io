@@ -1,12 +1,12 @@
-# kaffeeundkomiss.github.io
+# kaffeeundkommiss.github.io
 
-Startseite der Organisation: https://kaffeeundkomiss.github.io/
+Startseite der Organisation: https://kaffeeundkommiss.github.io/
 
 Verweist auf die drei Projekte:
 
-- Politik: FDP-Monitor (zurzeit noch https://kirchnerjan-cell.github.io/fdp-monitor/, nach der Übertragung https://kaffeeundkomiss.github.io/fdp-monitor/)
-- Geschichte: Jagdgeschwader Richthofen, https://kaffeeundkomiss.github.io/erster-Weltkrieg/
-- Sicherheitspolitik: Bundeswehr in Afghanistan, https://kaffeeundkomiss.github.io/bundeswehr-Afghanistan-/
+- Politik: FDP-Monitor (zurzeit noch https://kirchnerjan-cell.github.io/fdp-monitor/, nach der Übertragung https://kaffeeundkommiss.github.io/fdp-monitor/)
+- Geschichte: Jagdgeschwader Richthofen, https://kaffeeundkommiss.github.io/erster-Weltkrieg/
+- Sicherheitspolitik: Bundeswehr in Afghanistan, https://kaffeeundkommiss.github.io/bundeswehr-Afghanistan-/
 
 ## Aufbau
 
