@@ -1,0 +1,16 @@
+{
+  "name": "Kaffee und Kommiss",
+  "short_name": "Kaffee & Kommiss",
+  "description": "Selbst erstellte Übersichten zu Politik, Geschichte und Sicherheitspolitik, jede Angabe mit Quelle.",
+  "lang": "de",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F3F0E8",
+  "theme_color": "#23211C",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "kk-tasse.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
