@@ -43,3 +43,6 @@ h1{margin:6px 0 0;font:700 clamp(30px,5vw,42px)/1.02 var(--kk-titel);text-transf
   --kk-schild:rgba(17,17,17,.96); --kk-dimm:rgba(0,0,0,.45); --kk-leiste:#000000;
   --kk-akzent:#FFFFFF; --kk-akzent-hell:#222222; --kk-kopf:#1A1A1A;
 }
+
+/* Bereich Geschichte: Stacheldraht und Explosionen statt Kartenraster, wie auf den Weltkriegsseiten (stacheldraht.svg aus erster-Weltkrieg). */
+.kk-b-gesch{--kk-muster:url("stacheldraht.svg")}
