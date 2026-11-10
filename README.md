@@ -13,4 +13,5 @@ Verweist auf die drei Projekte:
 - `index.html` – die Seite, ohne Skripte
 - `style.css` – Farben und Gestaltung wie die Afghanistan-Seite (Tropentarn, heller und dunkler Modus)
 - `tarn.svg` – Tarnmuster im Kopf, aus dem Afghanistan-Repo übernommen
-- `favicon.svg` – Symbol (Kaffeetasse)
+- `favicon.svg`, `kk-tasse.svg` – Symbol (schwarze Kaffeetasse auf Weiß); PNG-Fassungen: `favicon-32.png`, `apple-touch-icon.png`, `icons/icon-192.png`, `icons/icon-512.png`
+- Startseite in Schwarz-Weiß: Klasse `kk-sw` am `<html>` von `index.html`, Regeln am Ende von `style.css`
