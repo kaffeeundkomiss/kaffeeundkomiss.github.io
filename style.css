@@ -23,16 +23,13 @@ h1{margin:6px 0 0;font:700 clamp(30px,5vw,42px)/1.02 var(--kk-titel);text-transf
 .hinweis{margin-top:auto;padding-top:8px;font:400 13px var(--kk-mono);color:var(--kk-grau)}
 
 /* Startseite in Schwarz-Weiß (10.11.2026): Klasse kk-sw am <html> von index.html.
-   Gilt nur für die Startseite; die Bereichsseiten behalten ihre Farben. Kachelbänder werden entsättigt. */
+   Gilt nur für Leiste, Kopf, Fuß und Hintergrund der Startseite. Die Kacheln behalten Farbe und Muster ihres Bereichs. */
 :root.kk-sw{
   --kk-grund:#FFFFFF; --kk-papier:#FFFFFF; --kk-tinte:#000000; --kk-grau:#555555; --kk-linie:#CFCFCF;
   --kk-schild:rgba(255,255,255,.96); --kk-dimm:transparent;
   --kk-leiste:#000000; --kk-leiste-ink:#FFFFFF; --kk-leiste-mute:#BDBDBD;
-  --kk-akzent:#000000; --kk-akzent-hell:#EDEDED; --kk-kopf:#F2F2F2; --kk-markierung:#FFFFFF;
+  --kk-akzent:#000000; --kk-akzent-hell:#EDEDED; --kk-kopf:#FFFFFF; --kk-markierung:#FFFFFF;
 }
-.kk-sw .kk-b-gesch,.kk-sw .kk-b-sipo,.kk-sw .kk-b-poli{--kk-akzent:var(--kk-tinte);--kk-markierung:var(--kk-tinte)}
-.kk-sw .projekt .band{filter:grayscale(1)}
-.kk-sw .projekt .band img{filter:grayscale(1)}
 .kk-sw .kk-schild .logo{outline:1px solid var(--kk-linie)}
 @media (prefers-color-scheme: dark){
   :root.kk-sw:not([data-theme="light"]){
@@ -40,11 +37,9 @@ h1{margin:6px 0 0;font:700 clamp(30px,5vw,42px)/1.02 var(--kk-titel);text-transf
     --kk-schild:rgba(17,17,17,.96); --kk-dimm:rgba(0,0,0,.45); --kk-leiste:#000000;
     --kk-akzent:#FFFFFF; --kk-akzent-hell:#222222; --kk-kopf:#1A1A1A;
   }
-  :root.kk-sw:not([data-theme="light"]) .kk-b-gesch,:root.kk-sw:not([data-theme="light"]) .kk-b-sipo,:root.kk-sw:not([data-theme="light"]) .kk-b-poli{--kk-akzent:var(--kk-tinte);--kk-markierung:var(--kk-tinte)}
 }
 :root.kk-sw[data-theme="dark"]{
   --kk-grund:#000000; --kk-papier:#111111; --kk-tinte:#FFFFFF; --kk-grau:#B0B0B0; --kk-linie:#333333;
   --kk-schild:rgba(17,17,17,.96); --kk-dimm:rgba(0,0,0,.45); --kk-leiste:#000000;
   --kk-akzent:#FFFFFF; --kk-akzent-hell:#222222; --kk-kopf:#1A1A1A;
 }
-:root.kk-sw[data-theme="dark"] .kk-b-gesch,:root.kk-sw[data-theme="dark"] .kk-b-sipo,:root.kk-sw[data-theme="dark"] .kk-b-poli{--kk-akzent:var(--kk-tinte);--kk-markierung:var(--kk-tinte)}
