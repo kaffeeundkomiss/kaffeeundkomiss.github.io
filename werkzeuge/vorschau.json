@@ -1,4 +1,21 @@
-{ "basis": "https://kaffeeundkommiss.github.io/", "ordner": "vorschau", "site_name": "Kaffee und Kommiss",
+{
+  "basis": "https://kaffeeundkommiss.github.io/",
+  "ordner": "vorschau",
+  "site_name": "Kaffee und Kommiss",
   "seiten": [
-    { "datei": "index.html", "bild": "start", "kicker": "Politik · Geschichte · Sicherheitspolitik", "titel": "Kaffee und Kommiss", "unter": "Selbst erstellte Übersichten, jede Angabe mit Quelle: FDP-Monitor, Erster Weltkrieg, Bundeswehr in Afghanistan." }
-  ] }
+    {
+      "datei": "index.html",
+      "bild": "start",
+      "kicker": "Politik · Geschichte · Sicherheitspolitik",
+      "titel": "Kaffee und Kommiss",
+      "unter": "Selbst erstellte Übersichten, jede Angabe mit Quelle: FDP- und SPD-Monitor, Erster Weltkrieg, Bundeswehr in Afghanistan."
+    },
+    {
+      "datei": "politik/index.html",
+      "bild": "politik",
+      "kicker": "Kaffee und Kommiss · Politik",
+      "titel": "Parteien im Überblick",
+      "unter": "FDP-Monitor und SPD-Monitor: Umfragewerte für Bund und Länder, Wahlergebnisse und Parteidaten, jede Angabe mit Quelle."
+    }
+  ]
+}
