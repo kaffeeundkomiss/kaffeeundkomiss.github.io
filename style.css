@@ -47,10 +47,10 @@ h1{margin:6px 0 0;font:700 clamp(30px,5vw,42px)/1.02 var(--kk-titel);text-transf
 /* Bereich Geschichte: Stacheldraht und Explosionen statt Kartenraster, wie auf den Weltkriegsseiten (stacheldraht.svg aus erster-Weltkrieg). */
 .kk-b-gesch{--kk-muster:url("stacheldraht.svg")}
 
-/* Bereichsübersichten im hellen Modus (10.11.2026): Politik weiß wie die Startseite, Geschichte dezentes Grau. */
+/* Bereichsübersichten im hellen Modus (10.11.2026): Politik weiß wie die Startseite, Geschichte und Sicherheitspolitik dezentes Grau. */
 @media (prefers-color-scheme: light){
   body.kk-b-poli{--kk-grund:#FFFFFF;--kk-papier:#FFFFFF;--kk-schild:rgba(255,255,255,.96);--kk-linie:#D6D6D6}
-  body.kk-b-gesch{--kk-grund:#F0F0EE;--kk-papier:#FFFFFF;--kk-schild:rgba(255,255,255,.96);--kk-linie:#D6D6D6}
+  body.kk-b-gesch,body.kk-b-sipo{--kk-grund:#F0F0EE;--kk-papier:#FFFFFF;--kk-schild:rgba(255,255,255,.96);--kk-linie:#D6D6D6}
 }
 :root[data-theme="light"] body.kk-b-poli{--kk-grund:#FFFFFF;--kk-papier:#FFFFFF;--kk-schild:rgba(255,255,255,.96);--kk-linie:#D6D6D6}
-:root[data-theme="light"] body.kk-b-gesch{--kk-grund:#F0F0EE;--kk-papier:#FFFFFF;--kk-schild:rgba(255,255,255,.96);--kk-linie:#D6D6D6}
+:root[data-theme="light"] body.kk-b-gesch,:root[data-theme="light"] body.kk-b-sipo{--kk-grund:#F0F0EE;--kk-papier:#FFFFFF;--kk-schild:rgba(255,255,255,.96);--kk-linie:#D6D6D6}

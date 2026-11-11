@@ -8,7 +8,7 @@
       "bild": "start",
       "kicker": "Politik · Geschichte · Sicherheitspolitik",
       "titel": "Kaffee und Kommiss",
-      "unter": "Selbst erstellte Übersichten, jede Angabe mit Quelle: FDP-, SPD- und CDU/CSU-Monitor, Erster Weltkrieg mit Richthofen und Ernst Jünger, Bundeswehr in Afghanistan."
+      "unter": "Selbst erstellte Übersichten, jede Angabe mit Quelle: FDP-, SPD- und CDU/CSU-Monitor, Erster Weltkrieg mit Richthofen und Ernst Jünger, Bundeswehr in Afghanistan, im Kosovo und in Mali."
     },
     {
       "datei": "politik/index.html",
@@ -23,6 +23,13 @@
       "kicker": "Kaffee und Kommiss · Geschichte",
       "titel": "Erster Weltkrieg an der Westfront",
       "unter": "Jagdgeschwader Richthofen 1916–1918 und Ernst Jüngers Weg 1914–1918: animierte Karten, jede Angabe mit Quelle."
+    },
+    {
+      "datei": "sicherheitspolitik/index.html",
+      "bild": "sicherheitspolitik",
+      "kicker": "Kaffee und Kommiss · Sicherheitspolitik",
+      "titel": "Auslandseinsätze der Bundeswehr",
+      "unter": "Afghanistan 2001–2021, Kosovo seit 1999 und Mali 2013–2024: Kennzahlen, Mandate, Zeitleisten und Karten, jede Angabe mit Quelle."
     }
   ]
 }
