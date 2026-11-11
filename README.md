@@ -6,7 +6,7 @@ Verweist auf die drei Projekte:
 
 - Politik: Übersicht https://kaffeeundkommiss.github.io/politik/ (Ordner `politik/`) mit FDP-Monitor (https://kaffeeundkommiss.github.io/fdp-monitor/) , SPD-Monitor (https://kaffeeundkommiss.github.io/spd-monitor/) und CDU/CSU-Monitor (https://kaffeeundkommiss.github.io/cducsu-monitor/)
 - Geschichte: Jagdgeschwader Richthofen, https://kaffeeundkommiss.github.io/erster-Weltkrieg/
-- Sicherheitspolitik: Bundeswehr in Afghanistan, https://kaffeeundkommiss.github.io/bundeswehr-Afghanistan-/
+- Sicherheitspolitik: Übersicht https://kaffeeundkommiss.github.io/sicherheitspolitik/ (Ordner `sicherheitspolitik/`) mit Bundeswehr in Afghanistan (https://kaffeeundkommiss.github.io/bundeswehr-Afghanistan-/), in Mali (https://kaffeeundkommiss.github.io/bundeswehr-Mali/) und im Kosovo (https://kaffeeundkommiss.github.io/bundeswehr-Kosovo/); Länderumrisse in `icons/afghanistan.svg`, `icons/mali.svg`, `icons/kosovo.svg`
 
 ## Aufbau
 
